@@ -1,0 +1,139 @@
+
+:root{
+
+
+--main-beige:rgb(253, 197, 75);
+--main-beige-opacity:rgb(253, 197, 75,0.5);
+--main-sombre:#333;
+--white:white;
+--white-casse:rgb(243, 236, 220);
+--size-medium: font-size: 5em;
+
+}
+
+
+
+/* Global  */
+body{font-family: 'Lato', sans-serif;}
+
+li{list-style-type:none ;}
+a{text-decoration: none;}
+.row{--bs-gutter-x: none;}
+
+
+/* Global  */
+
+
+.haut-head i{margin-right: 15px;color: var(--main-beige);}
+.haut-head p{margin-right: 15px;}
+
+/*  HEADER  */
+nav{background-color:var(--main-sombre);}
+nav h3{color:var(--main-beige);height: 30px;}
+nav ul li{display: inline;}
+nav a{border: solid 3px var(--main-sombre);}
+.active-1{border-bottom: solid 3px var(--main-beige);color:var(--main-beige);}
+nav{color:white}
+
+
+/*  HEADER  */
+
+
+/*   Img Bandeau    */
+
+.img-bandeau{background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+
+    url(../img/people-2557396_1920.jpg); ;height: 600px;background-position: center;background-size: cover;
+color:var(--white);
+}
+
+.img-bandeau h4{font-weight: 300;}
+.img-bandeau h2 {margin:10px 0 20px 0;}
+
+.btn{padding: 8px 12px;background-color: var(--main-beige);color:var(--white);}
+
+
+
+
+
+
+/*   Img Bandeau    */
+
+
+
+.trait-separation-section{height: 2px;width: 50px;background-color: var(--main-beige);}
+
+.back{padding: 30px;
+background-image: linear-gradient(var(--main-beige-opacity), var(--main-beige-opacity)),
+
+url(../img/section-2.jpg);; ;height: 600px;background-position: center;background-size: cover;
+color:var(--white);
+ 
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 50%;
+    text-align: center;
+ 
+}
+.carre{  border: white 3px solid;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    font-size: 25em;
+    padding: 0;
+    color: var(--white);
+    font-family: 'Righteous', cursive;
+
+}
+
+
+
+
+
+.taille-section{height: 600px;}
+
+/*   Img Bandeau    */
+
+/*   Section picto    */
+
+.section-picto{background-color: var(--white-casse);}
+
+
+
+/*   Section picto    */
+
+/* desction NB*/
+
+
+.img-nb{padding: 30px;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.486), rgb(255,255,255,0.1)),
+    
+    url(../img/travail\ nb.jpg);; ;height: 600px;background-position: center;background-size: cover;
+    color:var(--white);
+     
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+       
+        text-align: center;
+        height: 600px;
+        
+    }
+    .carre1{  border: white 3px solid;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+     
+       
+
+    }
+    
+    .carre1 h2 {font-size: 3em;font-weight: bold;}
+
+
+
+
+footer{height: 150px;}
