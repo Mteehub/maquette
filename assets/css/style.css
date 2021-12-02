@@ -1,0 +1,145 @@
+body{background-color: black; color:white;}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
+
+
+/*====================================================================================================================
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================*/
+
+header{display: flex; justify-content: space-between;padding: 25px 2%;    position: fixed;
+    width: 100%;}
+nav{position: fixed;}
+
+.antui{font-weight: 500;color: white;transition: ease 0.3s;}
+.antui:hover{color: rgba(255, 255, 255, 0.75);transition: ease 0.3s;}
+
+.offcanvas-top{height: 100vh;}
+
+.burger{height:30px;transition: ease 0.3s;}
+.burger:hover{transform: rotate(-0.25turn);transition: ease 0.3s;}
+
+.btn-close{padding: 25px 2.5%;transition: ease 0.3s;}
+.btn-close:hover{transform: rotate(0.25turn);transition: ease 0.3s;}
+
+.btn-close:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.btn-close:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.nav{
+    color:black;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items:center
+}
+
+a{text-decoration: none;}
+
+
+.navigation{display: flex;}
+
+.navigation ul{width: calc(800px - 10vh);}
+
+.nav-pos{
+    display: flex;
+    align-items: center
+;}
+
+.nav p{padding-bottom: 20px;}
+
+
+.navigation ul a li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: calc(3rem + 1.5vw);
+    transition: ease 0.3s;
+    color: #111111;
+    text-transform: uppercase;
+    width: 100%;
+    
+
+}
+
+ol, ul{padding-left: 0px;}
+
+.navigation ul a li:hover{
+
+padding-left: 10PX ; transition: ease 0.1s;
+border-left: solid 10px rgb(35, 138, 235);
+color: rgb(35, 138, 235);
+
+}
+
+.nav-pos i{font-size: 3rem;padding-right: 30px;margin-top:25px;transition: ease 0.3s;}
+.nav-pos i:hover{color: rgb(35, 138, 235);cursor: pointer;transition: ease 0.3s;}
+
+
+
+/*====================================================================================================================
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================*/
+
+
+
+
+/*/*/
+
+
+
+
+
+/*====================================================================================================================
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================*/
+
+
+
+
+.antui-s-1{height: 100vh;}
+.antui-s-1 .ph1{
+
+    background-image: url(../img/mockup/Maquette-fictive-refont-yahoo-météo.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.antui-s-1 h1{font-size: calc(1.9rem + 2.3vw);line-height: 2rem + 2.6vw;margin-top:-100px ;padding: 0px 2.5%;}
